@@ -1,3 +1,108 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.m-6 {
+  margin: 6rem;
+}
+
+.my-6 {
+  margin: 6rem 0;
+}
+
+.p-6 {
+  padding: 6rem;
+}
+
+.py-6 {
+  padding: 6rem 0;
+}
+
+.container {
+  max-height: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+}
+
 .x-large {
   font-size: 4rem;
   line-height: 1.2rem;
@@ -13,6 +118,10 @@
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: #17a2b8;
 }
 
 .bg-primary {
@@ -33,7 +142,7 @@
 }
 .bg-danger {
   background-color: #dc3545;
-  color: #333;
+  color: #fff;
 }
 .bg-white {
   background-color: #fff;
@@ -84,7 +193,7 @@
 }
 .btn.btn-danger {
   background-color: #dc3545;
-  color: #333;
+  color: #fff;
 }
 .btn.btn-danger:hover {
   background-color: #e04b59;
@@ -92,6 +201,50 @@
 .btn:hover {
   background: #626d78;
   color: #fff;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #f4f4f4;
+  color: #333;
+}
+.alert-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+.alert-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+.alert-success {
+  background-color: #28a745;
+  color: #fff;
+}
+.alert-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+.form-text {
+  display: block;
+  color: #888;
+  margin-top: 0.3rem;
+}
+.form input[type=text],
+.form input[type=email],
+.form input[type=password],
+.form input[type=date],
+.form select, .form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
 }
 
 * {

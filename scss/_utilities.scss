@@ -1,3 +1,14 @@
+.container{
+  max-height: $max-width;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  padding-top: 4rem;
+  //margin-top: 6rem;
+  margin-bottom:3rem;
+}
+
+
 //TEXT styles
 .x-large{
   font-size: 4rem;
@@ -13,6 +24,11 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+.text-primary{
+  color: $primary-color;
+}
+
+//  backgrounds
 .bg{
   &-primary{
     @include set-background($primary-color);
@@ -82,4 +98,23 @@ left: 0;
     color: #fff;
   }
 
+}
+.alert{
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: $light-color;
+  color: #333;
+  &-primary{
+    @include set-background($primary-color);
+  }
+  &-dark{
+    @include set-background($dark-color);
+  }
+  &-success{
+    @include set-background($success-color);
+  }
+  &-danger{
+    @include set-background($danger-color);
+  }
 }
